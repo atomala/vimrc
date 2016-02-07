@@ -4,9 +4,9 @@ if &compatible
 endif
 
 " Required:
-set runtimepath^=/home/alex/.vim/bundle/neobundle.vim/
+set runtimepath^=~/.vim/bundle/neobundle.vim/
 
-call neobundle#begin(expand('/home/alex/.vim/bundle'))
+call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Add or remove your Bundles here:
