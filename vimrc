@@ -4,12 +4,14 @@ if &compatible
 endif
 
 " Required:
-set runtimepath^=~/.vim/bundle/neobundle.vim/
+set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Add or remove your Bundles here:
+
+NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
 
@@ -52,3 +54,5 @@ set colorcolumn=110
 highlight ColorColumn ctermbg=darkgray
 
 :color evening
+
+let g:neocomplete#enable_at_startup = 1
