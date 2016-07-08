@@ -12,7 +12,6 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Add or remove your Bundles here:
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'Valloric/YouCompleteMe'
 
 call neobundle#end()
 filetype plugin indent on
