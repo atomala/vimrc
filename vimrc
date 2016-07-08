@@ -6,7 +6,7 @@ endif
 " Required:
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 
-call neobundle#begin(expand('~/.vim/bundle'))
+call neobundle#rc(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Add or remove your Bundles here:
@@ -15,7 +15,6 @@ NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
 
-call neobundle#end()
 filetype plugin indent on
 
 NeoBundleCheck
