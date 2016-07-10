@@ -30,5 +30,3 @@ set colorcolumn=110
 highlight ColorColumn ctermbg=darkgray
 
 :color evening
-
-let g:neocomplete#enable_at_startup = 1
