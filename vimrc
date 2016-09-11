@@ -1,10 +1,11 @@
 set number	
-set linebreak	
-set showbreak=+++ 	
-set textwidth=100	
+set linebreak
+set wrap
+set textwidth=80 
 set showmatch	
 set visualbell	
- 
+set formatoptions=l 
+
 set hlsearch	
 set smartcase	
 set incsearch	
@@ -21,6 +22,8 @@ set ruler	" Show row and column ruler information
  
 set undolevels=1000	
 set backspace=indent,eol,start	" Backspace behaviour
+
+set wildmenu
 
 " Allow project specific vimrc files
 set exrc
