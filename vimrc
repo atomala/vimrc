@@ -1,26 +1,3 @@
-"NeoBundle Scripts-----------------------------
-if &compatible
-  set nocompatible
-endif
-
-" Required:
-set runtimepath^=~/.vim/bundle/neobundle.vim/
-
-call neobundle#begin(expand('~/.vim/bundle'))
-NeoBundleFetch 'Shougo/neobundle.vim'
-
-" Add or remove your Bundles here:
-NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'Valloric/YouCompleteMe'
-
-call neobundle#end()
-filetype plugin indent on
-
-NeoBundleCheck
-"End NeoBundle Scripts-------------------------
-
-
 set number	
 set linebreak	
 set showbreak=+++ 	
